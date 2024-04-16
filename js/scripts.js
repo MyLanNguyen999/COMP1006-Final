@@ -1,7 +1,7 @@
 // delete confirmation - can be used for any delete
 function yaSure() {
     // use the js confirm() function: OK = true, Cancel = false
-    
+
     return confirm('Are you sure you want to delete this?');
 }
 
@@ -24,13 +24,3 @@ function comparePasswords() {
     }
 }
 
-function confirmDelete() {
-  if (confirm('Are you sure you want to delete this?') == true) {
-    //* user clicked OK so execute the link
-    return true;
-  }
-  else {
-    //* user clicked Cancel so stop execution
-    return false;
-  }
-}
