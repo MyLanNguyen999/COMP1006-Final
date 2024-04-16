@@ -72,9 +72,12 @@ else {
         <!-- //* show photo if any -->
         <?php
             if ($game['photo']!= null) {
-                echo '<img src="img/game-uploads/' .$game['photo']. ' " alt="Show Photo" />';
+                // echo '<img src="img/game-uploads/' .$game['photo']. ' " alt="Show Photo" />';
+
                 // * make photo a link so it is opened in a new window
                 
+
+                echo '<a href="img/game-uploads/' .$game['photo']. '" target="_blank"><img src="img/game-uploads/' .$game['photo']. ' " alt="Show Photo" /></a>';
             }
         ?>
 
