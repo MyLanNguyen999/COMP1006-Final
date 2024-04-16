@@ -68,6 +68,17 @@ else {
         </fieldset>
         <input name="gameId" id="gameId" type="hidden" value="<?php echo $game['gameId']; ?>" />
         <input name="currentPhoto" id="currentPhoto" type="hidden" value="<?php echo $game['photo']; ?>" />
+        
+        <!-- //* show photo if any -->
+        <?php
+            if ($game['photo']!= null) {
+                echo '<img src="img/game-uploads/' .$game['photo']. ' " alt="Show Photo" />';
+                // * make photo a link so it is opened in a new window
+                
+            }
+        ?>
+
+
         <button class="offset-3 btn btn-primary p-2">Save</button>
     </form>
 </main>
