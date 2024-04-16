@@ -6,6 +6,9 @@ require 'include/header.php'; ?>
 <?php
 if (!empty($_SESSION['username'])) {
     echo '<a href="game-details.php">Add a New Game</a>';
+
+    // * add delete all button to delete all of the games
+    echo '</br><a href="delete-all.php" onclick="return confirmDelete();"> Delete All Games </a>';
 }
 
 require 'include/db.php';
