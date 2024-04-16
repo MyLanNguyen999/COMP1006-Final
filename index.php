@@ -13,6 +13,11 @@ require 'include/header.php';
         <a href="https://wikipedia.org" target="_blank">Wikipedia</a>.
     </p>
     <p>Created my logo at <a href="LogoMakr.com" target="_blank">LogoMakr.com</a>.</p>
+
+    <!-- //* add BMI calculator widget from https://100widgets.com/informers/268-body-mass-index-bmi-calculator.html -->
+    <p>
+        <script type="text/javascript" src="//100widgets.com/js_data.php?id=268"></script>
+    </p>
 </main>
 </body>
 </html>
